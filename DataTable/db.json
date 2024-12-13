@@ -1,0 +1,175 @@
+{
+  "userdata": [
+    {
+      "id": 1,
+      "name": "Elon Musk",
+      "date_of_birth": "1971-06-28",
+      "age": 53,
+      "gender": "male",
+      "net_worth": 250000000000,
+      "business": "Tesla, SpaceX, Neuralink, The Boring Company"
+    },
+    {
+      "id": 2,
+      "name": "Bernard Arnault",
+      "date_of_birth": "1949-03-05",
+      "age": 75,
+      "gender": "male",
+      "net_worth": 230000000000,
+      "business": "LVMH (Moët Hennessy Louis Vuitton)"
+    },
+    {
+      "id": 3,
+      "name": "Jeff Bezos",
+      "date_of_birth": "1964-01-12",
+      "age": 60,
+      "gender": "male",
+      "net_worth": 150000000000,
+      "business": "Amazon, Blue Origin"
+    },
+    {
+      "id": 4,
+      "name": "Bill Gates",
+      "date_of_birth": "1955-10-28",
+      "age": 69,
+      "gender": "male",
+      "net_worth": 110000000000,
+      "business": "Microsoft, Bill & Melinda Gates Foundation"
+    },
+    {
+      "id": 5,
+      "name": "Warren Buffett",
+      "date_of_birth": "1930-08-30",
+      "age": 94,
+      "gender": "male",
+      "net_worth": 100000000000,
+      "business": "Berkshire Hathaway"
+    },
+    {
+      "id": 6,
+      "name": "Larry Ellison",
+      "date_of_birth": "1944-08-17",
+      "age": 80,
+      "gender": "male",
+      "net_worth": 95000000000,
+      "business": "Oracle Corporation"
+    },
+    {
+      "id": 7,
+      "name": "Larry Page",
+      "date_of_birth": "1973-03-26",
+      "age": 51,
+      "gender": "male",
+      "net_worth": 90000000000,
+      "business": "Google (Alphabet Inc.)"
+    },
+    {
+      "id": 8,
+      "name": "Sergey Brin",
+      "date_of_birth": "1973-08-21",
+      "age": 51,
+      "gender": "male",
+      "net_worth": 85000000000,
+      "business": "Google (Alphabet Inc.)"
+    },
+    {
+      "id": 9,
+      "name": "Steve Ballmer",
+      "date_of_birth": "1956-03-24",
+      "age": 68,
+      "gender": "male",
+      "net_worth": 90000000000,
+      "business": "Microsoft"
+    },
+    {
+      "id": 10,
+      "name": "Mukesh Ambani",
+      "date_of_birth": "1957-04-19",
+      "age": 67,
+      "gender": "male",
+      "net_worth": 85000000000,
+      "business": "Reliance Industries"
+    },
+    {
+      "id": 11,
+      "name": "Mark Zuckerberg",
+      "date_of_birth": "1984-05-14",
+      "age": 40,
+      "gender": "male",
+      "net_worth": 75000000000,
+      "business": "Meta (Facebook, Instagram, WhatsApp)"
+    },
+    {
+      "id": 12,
+      "name": "Carlos Slim Helú",
+      "date_of_birth": "1940-01-28",
+      "age": 84,
+      "gender": "male",
+      "net_worth": 70000000000,
+      "business": "Grupo Carso, Telecom, Real Estate"
+    },
+    {
+      "id": 13,
+      "name": "Francoise Bettencourt Meyers",
+      "date_of_birth": "1953-07-10",
+      "age": 71,
+      "gender": "female",
+      "net_worth": 75000000000,
+      "business": "L'Oréal"
+    },
+    {
+      "id": 14,
+      "name": "Jim Walton",
+      "date_of_birth": "1948-06-07",
+      "age": 76,
+      "gender": "male",
+      "net_worth": 70000000000,
+      "business": "Walmart"
+    },
+    {
+      "id": 15,
+      "name": "Rob Walton",
+      "date_of_birth": "1944-10-28",
+      "age": 80,
+      "gender": "male",
+      "net_worth": 70000000000,
+      "business": "Walmart"
+    },
+    {
+      "id": 16,
+      "name": "Alice Walton",
+      "date_of_birth": "1949-10-07",
+      "age": 75,
+      "gender": "female",
+      "net_worth": 65000000000,
+      "business": "Walmart"
+    },
+    {
+      "id": 17,
+      "name": "Michael Bloomberg",
+      "date_of_birth": "1942-02-14",
+      "age": 82,
+      "gender": "male",
+      "net_worth": 60000000000,
+      "business": "Bloomberg L.P."
+    },
+    {
+      "id": 18,
+      "name": "Larry Fink",
+      "date_of_birth": "1952-11-02",
+      "age": 71,
+      "gender": "male",
+      "net_worth": 50000000000,
+      "business": "BlackRock"
+    },
+    {
+      "id": 19,
+      "name": "Francois Pinault",
+      "date_of_birth": "1936-08-21",
+      "age": 88,
+      "gender": "male",
+      "net_worth": 60000000000,
+      "business": "Kering, Luxury Goods"
+    }
+  ]
+}

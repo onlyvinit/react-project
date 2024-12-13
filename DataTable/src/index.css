@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.data-table-container {
+  padding: 20px;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  min-height: 100vh;
+}
+
+.filters-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.search-input {
+  padding: 10px;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #6a11cb;
+  box-shadow: 0 0 10px rgba(106, 17, 203, 0.5);
+  transform: scale(1.02);
+}
+
+.filter-select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.filter-select:hover, 
+.filter-select:focus {
+  outline: none;
+  border-color: #2575fc;
+  box-shadow: 0 0 10px rgba(37, 117, 252, 0.5);
+  transform: scale(1.02);
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.user-card {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  padding: 20px;
+  border-radius: 15px;
+  width: 220px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.user-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+.user-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  transform: skewX(-15deg) translateX(-100%);
+  transition: all 0.4s ease-in-out;
+}
+
+.user-card:hover::before {
+  transform: skewX(-15deg) translateX(100%);
+}
+
+.user-card h3 {
+  color: #333;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.user-card:hover h3 {
+  color: #6a11cb;
+}
+
+.user-card p {
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.user-card strong {
+  font-weight: bold;
+  color: #111;
+}
+
+.user-card:hover p {
+  color: #111;
+}
+
+.user-card:hover strong {
+  color: #2575fc;
+}
