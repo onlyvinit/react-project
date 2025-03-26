@@ -4,7 +4,7 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 // Your Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA2m98UsVw8dXRzGKLH1hb022Qxrz2Y_-g",
+  apiKey: "add your api key",
   authDomain: "login-8131b.firebaseapp.com",
   projectId: "login-8131b",
   storageBucket: "login-8131b.firebasestorage.app",
